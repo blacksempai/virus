@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#img {
+    width: 100%;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 165);
+}
+
+#main_btn {
+    border: none;
+    background: none;
+    font-size: 10vw;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% {
+        text-shadow: 0 0 0 red;
+    }
+    50% {
+        text-shadow: 0 0 10px red;
+    }
+    100% {
+        text-shadow: 0 0 0 red;
+    }
+}
